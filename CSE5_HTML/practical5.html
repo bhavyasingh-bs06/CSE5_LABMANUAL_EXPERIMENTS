@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align:center">Hotel Room Booking Form</h1>
+    <form>
+        <DIV>
+            <LABLE FOR="NAME">NAME:</LABLE>
+            <INPUT TYPE="TEXT" NAME="NAME" PLACEHOLDER="ENTER YOUR NAME HERE" REQUIRED><br><br> 
+            
+        </DIV>
+        <DIV>
+            <LABLE FOR="EMAIL">EMAIL:</LABLE>
+            <INPUT TYPE="EMAIL" NAME="EMAIL" PLACEHOLDER="ENTER YOUR EMAIL HERE" REQUIRED><br><br>
+        </DIV>
+        <DIV>
+            <LABLE FOR="PHONE">PHONE:</LABLE>
+            <INPUT TYPE="TEL" NAME="PHONE" PLACEHOLDER="ENTER YOUR PHONE NUMBER HERE" REQUIRED><br><br>
+        </DIV>
+        <DIV>
+            <LABLE FOR="DATE">CHECK-IN DATE:</LABLE>
+            <INPUT TYPE="DATE" placeholder="dd-mm-yyyy" NAME="DATE" REQUIRED><br><br>
+        </DIV>
+        <DIV>
+            <LABLE FOR="DATE">CHECK-OUT DATE:</LABLE>
+            <INPUT TYPE="DATE" placeholder="dd-mm-yyyy" NAME="DATE" REQUIRED><br><br>
+        </DIV>
+        <DIV>
+            <LABLE FOR="ROOM-TYPE">ROOM TYPE:</LABLE>
+            <SELECT NAME="ROOM-TYPE" REQUIRED>
+                <OPTION VALUE="">SELECT ROOM TYPE</OPTION>
+                <OPTION VALUE="SINGLE">SINGLE</OPTION>
+                <OPTION VALUE="DOUBLE">DOUBLE</OPTION>
+                <OPTION VALUE="SUITE">SUITE</OPTION>
+        </DIV>
+        <DIV>
+            <LABLE FOR="NUMBER OF GUESTS">NUMBER OF GUESTS:</LABLE>
+            <INPUT TYPE="NUMBER" NAME="NUMBER OF GUESTS" MIN="1" MAX="10" REQUIRED><br><br>
+
+        </DIV>
+        <DIV>
+            <LABLE FOR="SPECIAL REQUESTS">SPECIAL REQUESTS:</LABLE>
+            <TEXTAREA NAME="SPECIAL REQUESTS" PLACEHOLDER="ENTER ANY SPECIAL REQUESTS HERE"></TEXTAREA><br><br>
+        </DIV>
+        <DIV>
+            
+            <INPUT TYPE="SUBMIT" VALUE="BOOK NOW" &nbsp&nbsp>
+            <INPUT TYPE="RESET" VALUE="RESET">
+        </DIV>
+        
+    </form>
+</body>
+</html>
